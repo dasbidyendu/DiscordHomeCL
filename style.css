@@ -64,7 +64,7 @@
 }
 
 .odbutton button:hover {
-    background-color: #b3c7ff;
+    background-color: aquamarine;
     transition: background-color 0.5s ease-in-out;
     color: rebeccapurple;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, 0.2);
@@ -125,3 +125,62 @@ body {
 #element {
     color: white;
 }
+
+.midpara {
+    z-index: 5;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.downbutton {
+    margin-top: 300px;
+    margin-left: 200px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.downb button {
+    background-color: #ccd7ff;
+    border: 1px solid #677bb0;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+.downb {
+    margin-right: 40px;
+}
+
+.downb button:hover {}
+
+.launchb button {
+    background-color: #0e1e61;
+    border: 1px solid #181e30;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.lauchb {
+    margin-left: 20px;
+}
+
+.lauchb button:hover {}
