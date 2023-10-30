@@ -165,6 +165,7 @@ body {
 
 .downb {
     margin-right: 40px;
+    z-index: 16;
 }
 
 .downb button:hover {
@@ -189,6 +190,7 @@ body {
 
 .launchb {
     margin-left: 20px;
+    z-index: 15;
 }
 
 .launchb button:hover {
