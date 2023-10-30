@@ -1,0 +1,120 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Hnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+
+}
+
+.Hnav li {
+    list-style: none;
+
+
+}
+
+.Hnav a {
+    text-decoration: none;
+
+}
+
+.list-items ul {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.dslogo a {
+    display: flex;
+    color: white;
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dslogo a h2 {
+    padding: 10px 10px;
+}
+
+
+
+
+.list-items ul li a {
+    color: white;
+    margin: 10px 10px;
+}
+
+.odbutton button {
+    background-color: #7289da;
+    border: 1px solid #677bb0;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.odbutton button:hover {
+    background-color: #b3c7ff;
+    transition: background-color 0.5s ease-in-out;
+    color: rebeccapurple;
+}
+
+body {
+    background-color: #1f43c7;
+}
+
+.image-stack {
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+.image-stack img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-stack img:first-child {
+    z-index: 3;
+    padding-left: 700px;
+
+}
+
+.image-stack img:nth-child(2) {
+    z-index: 2;
+
+}
+
+.image-stack img:last-child {
+    z-index: 1;
+
+}
+
+.image-stack p {
+    font-size: 34px;
+    text-align: center;
+
+    color: white;
+}
+
+.textcon {
+
+    width: 1500px;
+    text-align: center;
+
+}
+
+#element {
+    color: white;
+}

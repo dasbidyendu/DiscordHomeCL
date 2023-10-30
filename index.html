@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>DsClone</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+    <div class="HContainer">
+        <div class="Header">
+            <nav class="Hnav">
+                <div class="dslogo">
+                    <a href="https://discord.com"><img src="https://www.svgrepo.com/show/353655/discord-icon.svg"
+                            height="50px" width="50px">
+                        <h2>Discord</h2>
+                    </a>
+                </div>
+                <div class="list-items">
+                    <ul>
+                        <li><a href="https://discord.com/download">Download</a></li>
+                        <li><a href="https://discord.com/nitro">Nitro</a></li>
+                        <li><a href="https://discord.com/discover">Discover</a></li>
+                        <li><a href="https://discord.com/safety">Safety</a></li>
+                        <li><a href="https://discord.com/support">Support</a></li>
+                        <li><a href="https://discord.com/blog">Blog</a></li>
+                        <li><a href="https://discord.com/careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="odbutton">
+                    <button onclick="window.open('https://discord.com/login')">Open Discord</button>
+                </div>
+
+            </nav>
+            <div class="image-stack">
+                <img src="8a8375ab7908384e1fd6efe408284203.svg" alt="Image 1" height="500px">
+                <img src="e6d57714479874c665b36c7adee76b1d.svg" alt="Image 2" height="500px">
+                <img src="c40c84ca18d84633a9d86b4046a91437.svg" alt="Image 3" height="500px">
+                <div class="textcon">
+                    <p>IMAGINE A PLACE...</p>
+                    <span id="element"></span>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['...where you can belong to a school club', ' a gaming group', 'or a worldwide art community.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+</body>
+
+</html>
