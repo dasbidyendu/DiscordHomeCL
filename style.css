@@ -67,7 +67,7 @@
     background-color: aquamarine;
     transition: background-color 0.5s ease-in-out;
     color: rebeccapurple;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), inset 0 0 2px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.2s ease-in-out;
 
 }
@@ -145,7 +145,7 @@ body {
 }
 
 .downb button {
-    background-color: #ccd7ff;
+    background-color: #f3f6ff;
     border: 1px solid #677bb0;
     border-radius: 20px;
     color: rgb(0, 0, 0);
@@ -163,7 +163,11 @@ body {
     margin-right: 40px;
 }
 
-.downb button:hover {}
+.downb button:hover {
+    color: blueviolet;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), inset 0 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-out;
+}
 
 .launchb button {
     background-color: #0e1e61;
@@ -179,8 +183,12 @@ body {
     width: 100%;
 }
 
-.lauchb {
+.launchb {
     margin-left: 20px;
 }
 
-.lauchb button:hover {}
+.launchb button:hover {
+    color: yellow;
+    box-shadow: 0 0 30px rgba(126, 126, 126, 0.5), inset 0 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-out;
+}
