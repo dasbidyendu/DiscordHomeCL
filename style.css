@@ -478,3 +478,16 @@ body {
 
 
 }
+
+.footercontainer {
+
+    position: relative;
+    bottom: -500px;
+    left: -20px;
+    width: 120%;
+    height: 600px;
+    background-color: #2f2277;
+    text-align: center;
+
+
+}
